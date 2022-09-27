@@ -2,7 +2,7 @@
 
 The following profile will yield a XFCE iso in the [beta-iso folder](https://sourceforge.net/projects/rebornos/files/beta-iso/).
 
-## Dir Structure
+### Dir Structure
 
 1. <code>src</code> contains the profile
 2. the profile uses efiboot instead for GRUB
@@ -11,7 +11,7 @@ The following profile will yield a XFCE iso in the [beta-iso folder](https://sou
 5. /usr/share/backgrounds/xfce/ allows for backgrounds to appear in the xfce background selector
 6. /etc/skel has bashrc with aliases (can remove) and the current themeing (will be removed in favour of the skel package)
 
-Features:
+### Features:
 1. <code>/etc/mkinitcpio.d</code> has the preset to be used during initramfs generation. --> encryption preset  
 2. <code>etc/X11/xorg.conf.d/</code> brings in support for touchpad 
 3. Bootmode allow choosing between free/non-free GPU drivers
