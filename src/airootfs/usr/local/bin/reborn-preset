@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mv -v /etc/mkinitcpio.d/reborn /etc/mkinitcpio.d/linux.preset
+
+rm /usr/local/bin/reborn-preset
